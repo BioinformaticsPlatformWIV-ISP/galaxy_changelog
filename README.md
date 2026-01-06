@@ -4,6 +4,18 @@ This page details changes to the Galaxy @Sciensano instance.
 
 https://galaxy.sciensano.be/
 
+## 2025/10/31
+
+We have updated the resources assigned to several tools from the toolshed, allocating additional cores to reduce their execution time.
+
+## New tools
+
+- KAPTAIN: KMA-bAsed Pipeline for meTAgenomic specIes ideNtification" is an optimized taxonomic classification workflow. It uses KMA as its core tool and adds the following post-processing steps: Remove plasmid hit, recalculate mapping metrics in light of full genomes, select per species the genome with the highest template identity. More information [here](https://github.com/BioinformaticsPlatformWIV-ISP/KAPTAIN). 
+
+## Updated tools
+
+- AmpliGone: Fix that allows the tool to run in multi-thread mode
+
 ## 2025/08/12
 
 ## New tools
